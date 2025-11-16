@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safety Awareness</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(#eef3ff, #d9e4ff);
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(120deg, #3b82f6, #1e40af);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    nav {
+      background: #1e3a8a;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+    nav a {
+      color: #fff;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffdd57;
+    }
+    .container {
+      max-width: 950px;
+      margin: 35px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+      transition: transform 0.3s, box-shadow 0.3s;
+      background-repeat: no-repeat;
+      background-position: bottom left;
+    }
+    .container:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    h2 {
+      margin-top: 0;
+      color: #1e40af;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 i, h2 img.icon-img {
+      margin-right: 8px;
+    }
+    .icon-img {
+      width: 35px;
+      height: auto;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    footer {
+      background: linear-gradient(120deg, #3b82f6, #1e40af);
+      color: #fff;
+      text-align: center;
+      padding: 22px;
+      margin-top: 40px;
+      box-shadow: 0 -3px 8px rgba(0,0,0,0.15);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 22px;
+        line-height: 1.4;
+      }
+      header p {
+        font-size: 14px;
+      }
+      nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 14px;
+      }
+      .container {
+        margin: 20px 10px;
+        padding: 20px;
+        background-size: 100px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      ul li {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Home, Road, and Workplace Safety Awareness</h1>
+    <p>Helping reduce risks and protect lives with clear safety guidance</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#home-accidents">Home Accidents</a>
+    <a href="#street-accidents">Road Accidents</a>
+    <a href="#work-accidents">Workplace Accidents</a>
+    <a href="#tips">General Tips</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2><i class="fa-solid fa-circle-info"></i> Why Safety Awareness Matters</h2>
+    <p>Learning about common hazards helps prevent injuries and saves lives. Understanding safety rules can make our homes, streets, and workplaces much safer.</p>
+  </div>
+
+  <div class="container" id="home-accidents">
+    <h2><i class="fa-solid fa-house-chimney-crack"></i> Home Accidents</h2>
+    <p>Common home accidents include falls, burns, poisoning, and cuts. Many of these occur due to clutter, unsafe appliances, or lack of attention.</p>
+    <ul>
+      <li>Keep chemicals and cleaning products out of children’s reach.</li>
+      <li>Check electrical wires regularly to avoid fire risk.</li>
+      <li>Use non-slip mats in bathrooms and kitchens.</li>
+      <li>Keep floors dry to prevent slipping.</li>
+    </ul>
+  </div>
+
+  <div class="container" id="street-accidents">
+    <h2>
+      <i class="fa-solid fa-car-burst"></i>
+      Road Accidents
+    </h2>
+    <p>Road accidents can occur due to speeding, distraction, and not following traffic rules.</p>
+    <ul>
+      <li>Always wear your seatbelt.</li>
+      <li>Avoid using your phone while driving.</li>
+      <li>Follow traffic signs and speed limits.</li>
+      <li>Make sure your vehicle is well maintained.</li>
+    </ul>
+  </div>
+
+  <div class="container" id="work-accidents">
+    <h2><i class="fa-solid fa-helmet-safety"></i> Workplace Accidents</h2>
+    <p>Accidents at work may happen due to lack of training, faulty equipment, or ignoring safety measures.</p>
+    <ul>
+      <li>Wear proper protective equipment at all times.</li>
+      <li>Report unsafe conditions immediately.</li>
+      <li>Use tools and machines only as instructed.</li>
+      <li>Attend safety training sessions regularly.</li>
+    </ul>
+  </div>
+
+  <div class="container" id="tips">
+    <h2><i class="fa-solid fa-lightbulb"></i> General Safety Tips</h2>
+    <ul>
+      <li>Stay alert and aware of your surroundings.</li>
+      <li>Teach children basic safety rules early.</li>
+      <li>Keep emergency numbers easily accessible.</li>
+      <li>Install smoke detectors and check them monthly.</li>
+      <li>Have a first-aid kit ready in your home, car, and workplace.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>© 2025 Safety Awareness Platform</p>
+  </footer>
+</body>
+</html>
